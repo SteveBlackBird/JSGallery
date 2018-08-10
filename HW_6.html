@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>HW_6_JavaScript</title>
+		<meta name="author" content="Drozdov Stepan">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/gallery.css"> 
+	</head>
+	<body>
+		<div class="gallery">
+			<div class="mySlides">
+				<img src="img/img1.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<img src="img/img2.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<img src="img/img3.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<img src="img/img4.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<img src="img/img5.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<img src="img/img6.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<img src="img/img7.jpg" style="width:100%">
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<div class="gallery_caption">
+				<h3 id="img_title"></h3>
+				<p id="img_src"></p>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img class="gallery_carousel" src="img/img1.jpg" onclick="currentSlide(1)" alt="Pride">
+				</div>
+				<div class="column">
+					<img class="gallery_carousel" src="img/img2.jpg" onclick="currentSlide(2)" alt="Gluttony">
+				</div>
+				<div class="column">
+					<img class="gallery_carousel" src="img/img3.jpg" onclick="currentSlide(3)" alt="Envy">
+				</div>
+				<div class="column">
+					<img class="gallery_carousel" src="img/img4.jpg" onclick="currentSlide(4)" alt="Wrath">
+				</div>
+				<div class="column">
+					<img class="gallery_carousel" src="img/img5.jpg" onclick="currentSlide(5)" alt="Sloth">
+				</div>
+				<div class="column">
+					<img class="gallery_carousel" src="img/img6.jpg" onclick="currentSlide(6)" alt="Greed">
+				</div>
+				<div class="column">
+					<img class="gallery_carousel" src="img/img7.jpg" onclick="currentSlide(7)" alt="Lust">
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/gallery.js" async></script>
+	</body>
+</html>
