@@ -1,0 +1,2 @@
+# JSGallery
+Simple JS gallery
